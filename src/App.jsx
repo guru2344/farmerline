@@ -69,7 +69,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Gallery from "./pages/Gallery";
 import Service from "./pages/Service";
-import Login from "./pages/Login";
+import Login from "./pages/login";
 import Admin from "./pages/Admin";
 
 function App() {
