@@ -56,7 +56,7 @@ function Home() {
           className="flex-1"
         >
           <img
-            src="/src/assets/farmer.jpg"
+            src="/images/farmer.jpg"
             alt="farm"
             className="rounded-3xl shadow-2xl hover:scale-105 transition duration-500"
           />
