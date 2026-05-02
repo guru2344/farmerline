@@ -1,0 +1,48 @@
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* GLOBAL BASE STYLING ONLY */
+body {
+  @apply bg-white text-gray-900 dark:bg-gray-900 dark:text-white;
+  margin: 0;
+  transition: all 0.3s ease;
+}
+
+#root {
+  /* width: 1126px; */
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  border-inline: 1px solid #e5e4e7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.contact {
+  align-content: center;
+  justify-items: center;
+}
+.home-btn{
+  margin-top: 8px;
+   align-content: center;
+  justify-items: center;
+}
+/* .home-btn button{
+  spaing: 4px;
+} */
+/* TEXT */
+h1, h2 {
+  @apply text-gray-900 dark:text-white;
+}
+
+/* CODE */
+code {
+  @apply bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
